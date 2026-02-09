@@ -11,7 +11,7 @@
 
 <body>
 
-    <!-- Navigation en haut -->
+    <!-- Navigation -->
     <nav>
         <ul>
             <li><a href="#Accueil">Accueil</a></li>
@@ -36,7 +36,7 @@
         </p>
     </header>
 
-    <!-- Section À propos -->
+    <!-- Section a propos -->
     <section id="apropos">
         <h2>À propos de moi</h2>
         <p>
@@ -64,12 +64,15 @@
         </p>
 
         <p>
+            <span id="suite-apropos" style="display:none;">
             Mon objectif aujourd’hui est de continuer à me former dans la data, 
             construire des projets concrets, développer mon réseau  professionnel
             et, à terme, me lancer pleinement en tant que data scientist.
             Sérieux, motivé et curieux, je reste toujours prêt à apprendre et
             à relever de nouveaux défis.
-        </p>
+            </span>
+        </p> 
+            <button onclick="voirPlus('suite-apropos', this)">Voir plus</button>
 
     </section>
 
@@ -102,9 +105,12 @@
         </p>
 
         <p>
+            <span id="suite-passion" style="display:none;">
             C’est cette capacité de la data à transformer les sociétés et améliorer la vie des populations
             qui me motive à apprendre davantage dans ce domaine. Mon objectif est de continuer à évoluer,
             travailler sur des projets concrets et me lancer progressivement comme data scientist.
+            </span>
+            <button onclick="voirPlus('suite-passion', this)">Voir plus</button>
         </p>
 
     </section>

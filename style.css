@@ -1,4 +1,4 @@
-/* Style général du site */
+/* Parametre du site */
 body {
     font-family: Arial, sans-serif;
     font-size: 18px;
@@ -95,7 +95,7 @@ footer {
     background-color: #add;
 }
 
-/* Scroll fluide */
+/*  fluidite du defillement */
 html {
     scroll-behavior: smooth;
 }
